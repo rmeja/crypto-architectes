@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Architectes</title>
+</head>
+<style>
+  @font-face {
+    font-family: 'rubiklight';
+    src: url('font/rubik-variablefont_wght-webfont.woff2') format('woff2'),
+      url('font/rubik-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  body {
+    background-image: url('images/back-small-device.jpg');
+    display: flex;
+    align-items: end;
+    justify-content: initial;
+    height: 100vh;
+  }
+
+  .details {
+    font-family: rubiklight;
+    font-size: 2rem;
+    color: yellow;
+    padding: 10px;
+  }
+
+  @media screen and (min-width: 690px) {
+    body {
+      background-image: url('images/back-big-device.jpg');
+      align-items: center;
+      justify-content: center;
+    }
+
+    .details {
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 1.2vw;
+    }
+
+    .details .item {
+      display: inline;
+    }
+
+  }
+</style>
+
+<body>
+  <div class="details">
+    <div class="item">crypto architectes</div>
+    <div class="item">23 rue de Quéven</div>
+    <div class="item">31000 Toulouse</div>
+    <div class="item">contact@crypt-o.archi</div>
+    <div class="item">© photo : Cyrille Weiner</div>
+  </div>
+</body>
+
+</html>
