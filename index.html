@@ -28,11 +28,11 @@
   }
 
   body {
-    background: url('images/back-small-device.jpg') no-repeat center fixed;
+    background: url('images/back-big-device.jpg') no-repeat center fixed;
     background-size: cover;
     display: flex;
-    align-items: end;
-    justify-content: initial;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
   }
 
@@ -41,36 +41,23 @@
     font-size: 1.5rem;
     color: yellow;
     padding: 10px;
+    text-align: center;
+    letter-spacing: 0.2rem;
   }
 
-  @media screen and (min-width: 690px) {
-    body {
-      background: url('images/back-big-device.jpg') no-repeat center fixed;
-      background-size: cover;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .details {
-      text-align: center;
-      letter-spacing: 0.2rem;
-      font-size: 1.2vw;
-    }
-
-    .details .item {
-      display: inline;
-    }
-
+  .details .item {
+    display: inline-block;
   }
+
 </style>
 
 <body>
   <div class="details">
-    <div class="item">crypto architectes</div>
-    <div class="item">23 rue de Quéven</div>
-    <div class="item">31000 Toulouse</div>
-    <div class="item">contact@crypt-o.archi</div>
-    <div class="item">© photo : Cyrille Weiner</div>
+    <span class="item">crypto architectes</span>
+    <span class="item">23 rue de Quéven</span>
+    <span class="item">31000 Toulouse</span>
+    <span class="item">contact@crypt-o.archi</span>
+    <span class="item">© photo : Cyrille Weiner</span>
   </div>
 </body>
 
